@@ -27,3 +27,9 @@ h2{
 h2:hover{
     text-decoration: underline;
 }
+
+@media (max-width: 600px){
+    h2{
+        font-size: 2em;
+    }
+}
