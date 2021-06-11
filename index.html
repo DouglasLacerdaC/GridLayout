@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRID Layout</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <h2>Grid - Layout</h2>
+
+    <div class="container">
+        <div class="item item-1">
+            <i class="fab fa-css3"></i>
+            <p>CSS</p>
+        </div>
+        <div class="item item-2">
+            <i class="fas fa-apple-alt"></i>
+            <p>Apple</p>
+        </div>
+        <div class="item item-3">
+            <i class="fas fa-pepper-hot"></i>
+            <p>Pepper</p>
+        </div>
+        <div class="item item-4">
+            <i class="fas fa-cookie"></i>
+            <p>Cookie</p>
+        </div>
+        <div class="item item-5">
+            <i class="fas fa-hamburger"></i>
+            <p>Hamburguer</p>
+        </div>
+        <div class="item item-6">
+            <i class="fas fa-hotdog"></i>
+            <p>Hotdog</p>
+        </div>
+    </div>
+
+
+    <script src="https://use.fontawesome.com/releases/v5.15.3/js/all.js" data-search-pseudo-elements></script>
+    <script type="text/javascript" src="vanilla-tilt.js"></script>
+    <script type="text/javascript">
+        VanillaTilt.init(document.querySelectorAll(".item"), {
+            max: 25,
+            speed: 400,
+            glare: true,
+            "max-glare": 1
+        });
+    </script>
+</body>
+
+</html>
